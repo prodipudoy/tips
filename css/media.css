@@ -1,0 +1,228 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) {
+     .navbar-nav {
+         text-align: center;
+     }
+
+     .banner_box h2 {
+         font-size: 24px;
+     }
+
+     .sub_form {
+         padding: 30px 15px;
+     }
+
+     .banner_box {
+         padding: 130px 0 0;
+         margin-top: 20px;
+     }
+
+     .features {
+         padding: 0;
+     }
+
+     .features_box {
+         text-align: left;
+         padding: 65px 0;
+     }
+
+     .features_box p {
+         font-size: 18px;
+     }
+
+     .features_box h2 {
+         font-size: 32px;
+         color: #00c6ff;
+     }
+
+     .head_title h2 {
+         font-size: 32px;
+     }
+
+     .service {
+         padding: 200px 0 50px;
+         margin-top: -210px;
+     }
+
+     .testimonial_box h2 {
+         font-size: 32px;
+     }
+
+     footer {
+         padding: 180px 0 50px;
+         margin-top: -75px;
+     }
+
+     .footer_menu ul li a {
+         font-size: 16px;
+         padding: 0 10px;
+     }
+     .banner_section {
+        background-image: url(../images/mainbg33.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -100px;
+        padding-bottom: 50px;
+    }
+    input.form-control {
+        font-size: 14px;
+    }
+
+    button.btn.btn-primary.w-100 {
+        font-size: 14px;
+    }
+    
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .banner_box h2 {
+         font-size: 36px;
+     }
+
+     .sub_form {
+         padding: 30px;
+     }
+
+     .service {
+         padding: 150px 0 100px;
+     }
+
+     .features_img {
+         text-align: center;
+     }
+
+     .features_img img {
+         width: 50%;
+     }
+
+     .features_box {
+         text-align: left;
+     }
+
+     .features_box {
+         padding: 0;
+     }
+     .features_box h2 {
+        padding-top: 30px;
+    }
+
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     .banner_box h2 {
+         font-size: 36px;
+     }
+
+     .sub_form {
+         padding: 30px;
+     }
+
+     .features_box {
+         padding: 0;
+
+     }
+
+     .features_box p {
+         font-size: 16px;
+     }
+
+     .features {
+         padding: 0 0 100px;
+     }
+
+     .features_box h2 {
+         font-size: 32px;
+     }
+
+     .features_img {
+         padding-top: 150px;
+     }
+
+     .service {
+         padding: 75px 0 50px;
+         margin-top: -200px;
+     }
+
+     .head_title h2 {
+         font-size: 32px;
+     }
+
+     .single_service_b {
+         padding: 10px;
+     }
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     .banner_box h2 {
+         font-size: 40px;
+     }
+
+     .service {
+         padding: 150px 0 250px;
+         margin-top: -200px;
+     }
+
+     .head_title h2 {
+         font-size: 32px;
+         color: white;
+         text-align: center;
+         padding: 20px 0;
+     }
+
+     .features_box p {
+         font-size: 18px;
+     }
+
+ }
+
+ /*Extra  large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+ /*Extra extra large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1400px) and (max-width: 1899.98px) {}
+
+ @media (min-width: 1900px) {
+     .banner_section {
+         margin-top: -500px;
+     }
+
+     .banner_box {
+         margin-top: 500px;
+     }
+
+     .service {
+         padding: 700px 0 250px;
+         margin-top: -300px;
+         background-image: url(../images/secondshape22.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+     }
+
+     .topdiv {
+         margin-top: -300px;
+     }
+
+     footer {
+         background-image: url(../images/footerbg22.png);
+         background-position: bottom;
+         background-repeat: no-repeat;
+         background-size: cover;
+
+     }
+
+     .banner_section {
+         background-image: url(../images/mainbg2.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-top: -200px;
+         padding-bottom: 50px;
+     }
+
+
+ }
